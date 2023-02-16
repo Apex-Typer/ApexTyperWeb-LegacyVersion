@@ -1,0 +1,16 @@
+{
+  "short_name": "Apex Typer",
+  "name": "Practice Typing & Test your speed - Apex Typer",
+  "icons": [
+    {
+      "src": "icons/logo.png",
+      "sizes": "179x163",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "android": "windowSoftInputMode='adjustResize'"
+}

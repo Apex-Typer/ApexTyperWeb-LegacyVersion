@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  background-color: #1b1b1e;
+  color: #aaaaaa;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  /* min-height: 100vh; */
+  min-height: -webkit-fill-available;
+  min-width: 100vw;
+}
+
+/* @media (max-width: 639px) {
+  body {
+    min-height: calc(100vh- 180px);
+  }
+} */
+
+a {
+  text-decoration: none;
+  color: #aaaaaa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.grey-icon {
+  filter: invert(70%);
+}
+.cyan-icon {
+  filter: invert(88%) sepia(30%) saturate(4723%) hue-rotate(123deg)
+    brightness(107%) contrast(100%);
+}
+.display-none {
+  display: none !important;
+}
+.wrong-warning {
+  background-color: #ff000099 !important;
+  color: white !important;
+}
+.completed-warning {
+  background-color: #00ffff99 !important;
+  color: white !important;
+}
+.custom-dark-cyan {
+  color: #00ffff99 !important;
+}
+.custom-dark-red {
+  color: #ff000099 !important;
+}
+
+.custom-dark-grey {
+  /* color: rgba(128, 128, 128, 0.588); */
+  opacity: 0.6;
+}
+
+.custom-dark-yellow {
+  color: rgba(255, 162, 0, 0.603);
+}
+
+@keyframes current_letter_blinker {
+  50% {
+    color: #1b1b1e;
+  }
+
+  100% {
+    color: #ffff;
+  }
+}
+
+.current-letter {
+  color: #ffff;
+  animation: 1000ms current_letter_blinker ease-in-out infinite;
+  transition: animation 1s ease-in-out;
+}
+
+/* .test-words {
+  padding: 3px;
+} */
+
+.current-word {
+  border-radius: 3px;
+}
+
+.blur-content {
+  opacity: 0.5 !important;
+}
