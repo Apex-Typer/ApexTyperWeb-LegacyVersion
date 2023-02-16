@@ -38,6 +38,10 @@ code {
     monospace;
 }
 
+.test12345{
+  color: white;
+}
+
 .grey-icon {
   filter: invert(70%);
 }
