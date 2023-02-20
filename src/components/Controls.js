@@ -63,7 +63,7 @@ function Controls() {
       clearInterval(timerFunction.current);
       dispatch(enableShowResult());
     }
-  }, [liveTime]);
+  }, []);
 
   useEffect(() => {
     if (testOn) {
