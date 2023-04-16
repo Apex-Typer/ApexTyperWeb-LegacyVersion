@@ -1,2 +1,9 @@
 /node_modules/
 *.pack
+
+# editor local configuration
+.nvimrc
+.vim
+.vscode
+.idea
+\.idea/
